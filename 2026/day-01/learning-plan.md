@@ -1,0 +1,1 @@
+I am an SRE who wants to expand their skills and knowledge after being focused on the edge, WAF, and CDN side. This means understanding better kubernetes, CI/CD, and linux/unix. I aim to spend 1 hour a day on this.
