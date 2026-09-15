@@ -1,4 +1,4 @@
-### The core components of Linux (kernel, user space, init/systemd)
+## The core components of Linux (kernel, user space, init/systemd)
 
 Linux is divided into the **Kernel Space and User Space** and is bridged together at boot time by **systemd**.
 
@@ -8,7 +8,7 @@ Linux is divided into the **Kernel Space and User Space** and is bridged togethe
 
 
 
-### How processes are created and managed
+## How processes are created and managed
 
 The kernel invokes **fork()** to copy the **parent process** and create a child process, receiving its own unique PID (process ID).
 
@@ -20,13 +20,13 @@ Processes are managed with **process states**
 
 
 
-### What systemd does and why it matters
+## What systemd does and why it matters
 
 **systemd** is the first process launched by the kernel and stays active until the computer shuts down (PID 1). It starts, stops, and monitors daemons. It handles dependencies, speeds up booting, collects logs, provides core tools, and controls resources. It matters because it is a universal standard across Linux distributions, allows simpler configurations (replaces messy shell scripts), and is reliable (systemd can automatically restart crashed daemons)
 
 
 
-### Explain **process states** (running, sleeping, zombie, etc.)
+## Explain **process states** (running, sleeping, zombie, etc.)
 
 Linux kernel uses **process states** throughout its lifecycle to **manage system resources.**
 
@@ -38,7 +38,7 @@ Linux kernel uses **process states** throughout its lifecycle to **manage system
 
 
 
-### List **5 commands** you would use daily
+## List **5 commands** you would use daily
 
 **ls** - lists files in directory
 **cd** - change directory
